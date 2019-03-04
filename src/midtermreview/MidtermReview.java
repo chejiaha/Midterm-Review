@@ -13,6 +13,8 @@ import java.util.Scanner;
  */
 public class MidtermReview {
     
+    private String animal;
+    
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
         System.out.println("enter a word");
@@ -22,6 +24,14 @@ public class MidtermReview {
     
     public static int add(int num1, int num2){
         return num1+num2;
+    }
+
+    public String getAnimal() {
+        return animal;
+    }
+
+    public void setAnimal(String animal) {
+        this.animal = animal;
     }
     
 }
