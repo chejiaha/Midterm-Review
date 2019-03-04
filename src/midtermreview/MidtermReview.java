@@ -16,6 +16,7 @@ public class MidtermReview {
         System.out.println("enter a word");
         String str = input.nextLine();
         System.out.println("the word is " + str);
+        speak();
     }
     
     public static int add(int num1, int num2){
@@ -30,7 +31,7 @@ public class MidtermReview {
         this.animal = animal;
     }
     
-    public void speak(){
+    public static void speak(){
         System.out.println("The animal says Woof");
     }
 }
