@@ -12,15 +12,16 @@ import java.util.Scanner;
  * @author John
  */
 public class MidtermReview {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
         System.out.println("enter a word");
         String str = input.nextLine();
         System.out.println("the word is " + str);
+    }
+    
+    public static int add(int num1, int num2){
+        return num1+num2;
     }
     
 }
