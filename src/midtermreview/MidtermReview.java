@@ -7,10 +7,6 @@ package midtermreview;
 
 import java.util.Scanner;
 
-/**
- *
- * @author John
- */
 public class MidtermReview {
     
     private String animal;
@@ -34,4 +30,7 @@ public class MidtermReview {
         this.animal = animal;
     }
     
+    public void speak(){
+        System.out.println("The animal says Woof");
+    }
 }
